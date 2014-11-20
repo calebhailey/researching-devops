@@ -1,6 +1,6 @@
-Chef-metal
+* Chef-metal
 ===
-...***is now***...
+**is now**
 Chef-provisioning
 ===
 re: https://twitter.com/jkeiser2/status/527601333709602816

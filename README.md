@@ -24,3 +24,10 @@ First off, as of October 29th, in time for Halloween Chef-metal became [Chef-pro
 ## What is Sparkleformation?
 
 Sparkleformation is an early open source project by some of the team at one of the leading devops automation companies called [Heavy Water Ops](http://hw-ops.com/). I've written a simple [review of how-to get started with Sparkleformation](https://github.com/Adron/testing-devops-options/blob/master/sparkleformation.md).
+
+## Additional Documents & Links
+
+* [Documentarian Hacker Activist](./documentarian_hacker_activist.md)
+* [Article Release Plan](./post-release-dates.md)
+* [Other Notes](./othernotes.md)
+* [Terraform, Chef-metal/provisioning, Sparkleformation Summary](./summarized.md)
