@@ -1,7 +1,9 @@
 Chef-metal
 ===
-Chef-provisioning re: https://twitter.com/jkeiser2/status/527601333709602816
+...***is now***...
+Chef-provisioning
 ===
+re: https://twitter.com/jkeiser2/status/527601333709602816
 
 Prerequisites:
 

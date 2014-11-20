@@ -11,7 +11,7 @@ I've recently started looking into a number of tools to help automate projects f
 
 Over these last several months I've been building a lot of distributed systems. Primarily this work has focused solely around the AWS Ecosystem, with a few jaunts over to GCE or Azure spaces. While working through these projects I've run into a number of situations where automation is a primary indicator of a project being a success.
 
-The easiest way, in most of these modern IaaS or even PaaS environments, is to get started with one of the available powerful tools for automation. In this series I'm going to take a look at a few of these automation tools and provide a basic intro to getting started with each. The three I'll take a look at are: [Terraform](), [Chef-metal](), and [Sparkleformation]().
+The easiest way, in most of these modern IaaS or even PaaS environments, is to get started with one of the available powerful tools for automation. In this series I'm going to take a look at a few of these automation tools and provide a basic intro to getting started with each. The three I'll take a look at are: [Terraform](https://www.terraform.io/), [Chef-metal/provisioning](https://github.com/opscode/chef-provisioning), and [Sparkleformation](https://github.com/sparkleformation/sparkle_formation).
 
 ## What is Terraform?
 
