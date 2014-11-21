@@ -32,3 +32,10 @@ The sample configuration that is shown on the Terraform.io site shows just how s
 		    instance_type = "m1.small"
 		}
 
+
+
+
+
+***A Final Feature Comment***
+
+## Summary

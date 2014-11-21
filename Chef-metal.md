@@ -50,7 +50,7 @@ The next steps for installation of Chef-provisioning include:
 
 The above is a sample setup for using Chef-provisioning against AWS. For more information on using the tool against other platforms like Vagrant or others, check out the github repo [README.md](https://github.com/opscode/chef-provisioning/blob/master/README.md).
 
-A Final Feature Comment
+***A Final Feature Comment***
 
 When building TDD or BDD style code around operations, Chef-provisioning work with Test Kitchen, providing a way to test clusters and related deployments that are put together specifically for Chef-provisioning. This is a big advantage for this tool.
 
