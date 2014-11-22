@@ -1,10 +1,4 @@
-Terraform, Chef-metal and Sparkleformation
-===
-
-[![Ready](https://badge.waffle.io/Adron/researching-devops.png?label=ready&title=Ready)](https://waffle.io/Adron/researching-devops)
-[![In Progress](https://badge.waffle.io/Adron/researching-devops.png?label=In%20Progress&title=In%20Progress)](https://waffle.io/Adron/researching-devops)
-
-[![Throughput Graph](http://graphs.waffle.io/Adron/researching-devops/throughput.svg)](https://waffle.io/Adron/researching-devops)
+# Terraform, Chef-metal and Sparkleformation
 
 ## Introduction
 I've recently started looking into a number of tools to help automate projects from the development and operations point of views. As one might say these days, I was looking to *up my devops game*.
