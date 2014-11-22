@@ -58,4 +58,4 @@ Installing Terraform is an extremely simple process. The official intro [install
 
 ## Summary
 
-Overall Terraform is really simple. Sometimes the simplicity makes me question the tool, but so far Terraform has allayed my fears.
+Overall Terraform is really simple. Sometimes the simplicity makes me question the tool, but so far Terraform has allayed my fears. As complexity increases Terraform does start to get a bit more cumbersome and other tools are usually needed to compensate for this. In really complex environments, which are prevalent in large enterprises, Terraform tends to be difficult to really use on a daily operational basis. For more information, check out the summary [post here](summarized.md).
