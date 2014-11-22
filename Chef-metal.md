@@ -1,5 +1,4 @@
-* Chef-metal
-===
+# Chef-metal
 **[is now](https://twitter.com/jkeiser2/status/527601333709602816)** re: [https://twitter.com/jkeiser2/status/527601333709602816](https://twitter.com/jkeiser2/status/527601333709602816)
 # [Chef-provisioning](https://github.com/opscode/chef-provisioning)
 
