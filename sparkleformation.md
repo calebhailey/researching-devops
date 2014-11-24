@@ -33,6 +33,10 @@ In this basic starter template from the README.md we can see several of the key 
 
 Installation is a little tricky since the product is still in a beta state, albeit things may be changing real soon with new knife releases. It's solid, there are just a few extra configuration and steps to tweak things before getting up and running smoothly. For a quick walk-through of the installation steps check out the docs [Getting Started](https://github.com/sparkleformation/sparkle_formation/tree/master/docs#getting-started) section.
 
+## Getting Involved
+
+Sparkleformation is a new product put together by the [Heavy Water Operations]() team members [Chris Roberts](https://github.com/chrisroberts) and [Michael Weinberg](https://github.com/luckymike) (if I missed anybody, let me know!). If you want to get involved, jump in and check out the [repository](https://github.com/sparkleformation/sparkle_formation). From there give a ping to the team. Also, mention in the [issues](https://github.com/sparkleformation/sparkle_formation/issues) if you'd like to see a feature or want to jump in with a PR.
+
 ## Summary
 
 Sparkleformation provides a Ruby based DSL that creates a readable and more dynamic system in which to manage CloudFormation Templates, and prospectively whatever template systems are added in the future. With a DSL like Sparkleformation one has very powerful ability to programmatically manage computing resources in the AWS (or Rackspace) stack.

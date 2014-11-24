@@ -53,6 +53,10 @@ The above is a sample setup for using Chef-provisioning against AWS. For more in
 
 When building TDD or BDD style code around operations, Chef-provisioning work with Test Kitchen, providing a way to test clusters and related deployments that are put together specifically for Chef-provisioning. This is a big advantage for this tool.
 
+## Getting Involved
+
+The best way to get involved with Chef-provisioner and become familiar with Chef in general is to dive into the [Github repos](https://github.com/opscode) and start reviewing the activity. With Chef-provisioning there is also a [Gitter Chat](https://gitter.im/opscode/chef-provisioning?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) setup for communicating with others working on the repo. Another way to get a level set on the project is the [Waffle.io Project](https://waffle.io/opscode/chef-provisioning). Those key links and mediums should 
+
 ## Summary
 
 Chef-provisioning sets up solid new precedents for deployments with Chef, in general. Even though the tool itself is simple at first, it actually requires existing Chef knowledge and experience to get an environment setup for Chef usage and also takes work to really get started using Chef-provisioner. This initial learning ramp up can be difficult when just getting started. But once everything is setup, it's an extremely powerful tool with open ended possibilities to build out complex infrastructure and the respective systems and applications deployed on that infrastructure.
