@@ -6,80 +6,16 @@
 
 The best way to get an idea of the DSL and dive into the functionality is to take a look at the initial template that is shown in the [docs READM.md](https://github.com/sparkleformation/sparkle_formation/tree/master/docs#what-it-looks-like).
 
-		SparkleFormation.new('website') do
+In this basic starter template from the README.md we can see several of the key features of the Sparkleformation DSL. First there are the three key building blocks: Components, Dynamics, and Registries.
 
-		  set!('AWSTemplateFormatVersion', '2010-09-09')
+Components are the core part of Sparkleformation that provides static configuration for reuse between multiple stack templates.
 
-		  description 'Supercool Website'
+Dynamics are a way to create unique resources via parameter passing. This allows for changing parts of a template at run time, adding capabilities to the code reuse and varying nature of environments.
 
-		  resources.cfn_user do
-		    type 'AWS::IAM::User'
-		    properties.path '/'
-		    properties.policies _array(
-		      -> {
-		        policy_name 'cfn_access'
-		        policy_document.statement _array(
-		          -> {
-		            effect 'Allow'
-		            action 'cloudformation:DescribeStackResource'
-		            resource '*'
-		          }
-		        )
-		      }
-		    )
-		  end
+Registries are used to define reusable properties between resources of different types.
 
-		  resources.cfn_keys do
-		    type 'AWS::IAM::AccessKey'
-		    properties.user_name ref!(:cfn_user)
-		  end
 
-		  parameters.web_nodes do
-		    type 'Number'
-		    description 'Number of web nodes for ASG.'
-		    default 2
-		  end
 
-		  resources.website_autoscale do
-		    type 'AWS::AutoScaling::AutoScalingGroup'
-		    properties do
-		      availability_zones({'Fn::GetAZs' => ''})
-		      launch_configuration_name ref!(:website_launch_config)
-		      min_size ref!(:web_nodes)
-		      max_size ref!(:web_nodes)
-		    end
-		  end
-
-		  resources.website_launch_config do
-		    type 'AWS::AutoScaling::LaunchConfiguration'
-		    properties do
-		      image_id 'ami-123456'
-		      instance_type 'm3.medium'
-		    end
-		  end
-
-		  resources.website_elb do
-		    type 'AWS::ElasticLoadBalancing::LoadBalancer'
-		    properties do
-		      availability_zones._set('Fn::GetAZs', '')
-		      listeners _array(
-		        -> {
-		          load_balancer_port '80'
-		          protocol 'HTTP'
-		          instance_port '80'
-		          instance_protocol 'HTTP'
-		        }
-		      )
-		      health_check do
-		        target 'HTTP:80/'
-		        healthy_threshold '3'
-		        unhealthy_threshold '3'
-		        interval '5'
-		        timeout '15'
-		      end
-		    end
-		  end
-		end
 
 ## Installation:
 
